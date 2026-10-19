@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#090909">
+<title>Diamond Barber | Waarschoot</title>
+<meta name="description" content="Diamond Barber in Waarschoot. Bekijk de sfeer, ontdek de diensten en boek je afspraak online.">
+<style>
+:root{--bg:#090909;--panel:#121212;--gold:#c9a45b;--gold2:#f0d99a;--cream:#f5f0e6;--muted:#b8b3aa;--line:#373128}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--cream);font-family:Arial,Helvetica,sans-serif;line-height:1.6}a{color:inherit}button,select{font:inherit}.wrap{width:min(1160px,calc(100% - 40px));margin:auto}.topbar{height:78px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #ffffff18;background:#090909;position:sticky;top:0;z-index:10}.brand{display:flex;gap:12px;align-items:center;text-decoration:none}.brand-logo{display:block;width:170px;height:64px;object-fit:contain;object-position:left center;border-radius:0}.nav{display:flex;align-items:center;gap:26px}.nav a{text-decoration:none;font-size:12px;letter-spacing:.13em;text-transform:uppercase;color:#e4ded2}.nav a:hover{color:var(--gold2)}.language{background:#151515;color:var(--cream);border:1px solid #494236;padding:8px 10px}.btn{display:inline-flex;justify-content:center;align-items:center;gap:10px;padding:14px 22px;background:var(--gold);color:#0a0907;text-decoration:none;text-transform:uppercase;letter-spacing:.13em;font-size:11px;font-weight:800;border:1px solid var(--gold);transition:.2s}.btn:hover{background:var(--gold2);border-color:var(--gold2);transform:translateY(-1px)}.btn.outline{background:transparent;color:var(--gold)}.btn.outline:hover{color:#090909;background:var(--gold)}.menu-toggle{display:none;background:none;border:1px solid var(--line);color:var(--cream);padding:8px 11px}.hero{min-height:660px;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;position:relative;overflow:hidden;border-bottom:1px solid #ffffff12}.hero:before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 78% 45%,#8d6b2a24,transparent 40%),linear-gradient(90deg,#090909 10%,#090909e8 52%,#09090980);pointer-events:none}.hero-copy{position:relative;z-index:1;padding:85px 0}.eyebrow{color:var(--gold);font-size:11px;letter-spacing:.3em;text-transform:uppercase;font-weight:700}.hero h1{font-family:Georgia,'Times New Roman',serif;font-size:clamp(48px,7vw,88px);line-height:.98;letter-spacing:-.04em;font-weight:400;margin:22px 0}.hero h1 em{font-weight:400;color:var(--gold);display:block}.hero p{max-width:430px;color:#c8c0b4;font-size:15px;margin:25px 0 32px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.hero-art{height:100%;min-height:560px;position:relative;display:flex;align-items:center;justify-content:center}.hero-art:before{content:"";position:absolute;width:min(440px,80%);aspect-ratio:3/4;border:0;background:radial-gradient(ellipse,#17130d,transparent 70%);box-shadow:none}.hero-logo{position:relative;width:min(520px,94%);height:auto;object-fit:contain;border:0;box-shadow:none}.scroll-note{position:absolute;bottom:28px;left:0;color:#7c766c;font-size:9px;letter-spacing:.25em;text-transform:uppercase}.section{padding:92px 0}.section-head{text-align:center;max-width:650px;margin:0 auto 45px}.section-head .eyebrow{display:block}.section h2{font:400 clamp(34px,4.5vw,52px)/1.1 Georgia,serif;margin:14px 0 16px}.section-head p,.muted{color:var(--muted)}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.about-panel{min-height:350px;border:1px solid #c9a45b52;background:linear-gradient(135deg,#201b12,#0d0d0d 55%,#17130e);display:grid;place-items:center;position:relative}.about-panel:after{content:"";position:absolute;inset:15px;border:1px solid #c9a45b22}.about-logo{position:relative;z-index:1;width:90%;height:auto;object-fit:contain}.about-copy h2{font:400 44px/1.08 Georgia,serif;margin:12px 0 22px}.about-copy p{color:var(--muted);font-size:14px}.services{background:#0e0e0e;border-top:1px solid #ffffff0d;border-bottom:1px solid #ffffff0d}.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.service{border:1px solid #3a3328;padding:28px 24px;background:linear-gradient(145deg,#171512,#0e0e0e);min-height:195px}.service .number{color:var(--gold);font:italic 22px Georgia,serif}.service h3{font:400 24px Georgia,serif;margin:20px 0 9px}.service p{font-size:13px;color:var(--muted);margin:0}.gallery-grid{display:grid;grid-template-columns:1.1fr .9fr .9fr;gap:14px}.gallery-tile{min-height:235px;border:1px solid #4a3c26;background:radial-gradient(ellipse at 50% 25%,#3b3020,#171512 48%,#0d0d0d);display:flex;align-items:end;padding:20px;position:relative;overflow:hidden}.gallery-tile:first-child{min-height:330px;grid-row:span 2}.gallery-tile:before{content:"";position:absolute;inset:12px;border:1px solid #c9a45b2c}.gallery-tile span{position:relative;color:#dfc78f;font-size:10px;letter-spacing:.2em;text-transform:uppercase}.booking-band{background:linear-gradient(110deg,#1b1710,#0d0d0d 70%);border-top:1px solid #5a482b;border-bottom:1px solid #5a482b;text-align:center;padding:75px 20px}.booking-band p{color:var(--muted);max-width:500px;margin:0 auto 28px}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:45px}.contact-card{padding:28px;border:1px solid #383127;background:#101010}.contact-card h3{font:400 26px Georgia,serif;margin:0 0 20px}.detail{padding:13px 0;border-bottom:1px solid #ffffff12}.detail:last-child{border-bottom:0}.detail b{display:block;color:var(--gold);font-size:10px;letter-spacing:.2em;text-transform:uppercase;margin-bottom:4px}.detail span,.detail a{font-size:14px;color:#e5dfd4;text-decoration:none;overflow-wrap:anywhere}.contact-card .btn{margin-top:22px}.footer{border-top:1px solid #ffffff18;padding:25px 0;color:#8f887c;font-size:11px}.footer-inner{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.footer a{color:var(--gold);text-decoration:none}
+/* Scroll reveal: sections softly appear as you move down the page */
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .75s ease,transform .75s cubic-bezier(.2,.7,.2,1);}
+.reveal.is-visible{opacity:1;transform:translateY(0);}
+.reveal-stagger > *{opacity:0;transform:translateY(18px);transition:opacity .65s ease,transform .65s ease;}
+.reveal-stagger.is-visible > *{opacity:1;transform:translateY(0);}
+.reveal-stagger.is-visible > *:nth-child(2){transition-delay:.08s}
+.reveal-stagger.is-visible > *:nth-child(3){transition-delay:.16s}
+.reveal-stagger.is-visible > *:nth-child(4){transition-delay:.24s}
+.reveal-stagger.is-visible > *:nth-child(5){transition-delay:.32s}
+@media(prefers-reduced-motion:reduce){.reveal,.reveal-stagger > *{opacity:1;transform:none;transition:none}}
+@media(max-width:800px){.nav{display:none;position:absolute;top:77px;left:0;right:0;background:#0b0b0b;padding:22px;flex-direction:column;align-items:stretch;border-bottom:1px solid var(--line);gap:18px}.nav.open{display:flex}.menu-toggle{display:block}.topbar .btn{display:none}.hero{grid-template-columns:1fr;min-height:auto}.hero-copy{padding:75px 0 20px}.hero-art{min-height:330px;padding:20px 0 65px}.hero-art:before{width:250px}.hero-logo{width:min(430px,100%)}.scroll-note{display:none}.about-grid,.contact-grid{grid-template-columns:1fr;gap:30px}.service-grid{grid-template-columns:1fr}.service{min-height:0}.gallery-grid{grid-template-columns:1fr 1fr}.gallery-tile:first-child{grid-row:auto;min-height:235px}.section{padding:65px 0}.about-panel{min-height:260px}.about-logo{width:90%}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+
+/* refined luxury redesign */
+:root{--bg:#080706;--panel:#100e0b;--gold:#d5b36b;--gold2:#f4dfaa;--cream:#f7f1e7;--muted:#b7ada0;--line:#3b3020}
+body{font-family:Arial,Helvetica,sans-serif;letter-spacing:.005em;background:#080706}
+.topbar{height:84px;background:rgba(8,7,6,.96);backdrop-filter:blur(14px);border-bottom:1px solid #d5b36b27}
+.brand-logo{width:205px;height:66px;object-fit:cover;object-position:center;border:1px solid #d5b36b24;filter:saturate(.9)}
+.nav{gap:30px}.nav a{font-size:10px;letter-spacing:.19em;color:#d7cec0;transition:color .2s}.nav a:hover{color:var(--gold2)}
+.btn{padding:15px 23px;font-size:10px;letter-spacing:.18em;box-shadow:0 6px 24px #0004}.btn:hover{box-shadow:0 8px 30px #d5b36b20}
+.hero{min-height:720px;grid-template-columns:1fr 1fr;border-bottom:1px solid #d5b36b20;background:radial-gradient(ellipse at 70% 50%,#6e4b1d19,transparent 48%)}
+.hero:before{background:linear-gradient(90deg,#080706 4%,#080706f5 42%,#08070660 100%)}
+.hero-copy{padding:100px 0 95px}
+.eyebrow{font-size:9px;letter-spacing:.36em;color:#d8b66e}
+.hero h1{font-family:Georgia,'Times New Roman',serif;font-size:clamp(55px,7.2vw,96px);line-height:.91;letter-spacing:-.055em;margin:27px 0 25px}
+.hero h1 em{font-style:italic;color:#d9b96f}
+.hero p{font-size:14px;line-height:1.95;color:#c0b6a8;max-width:390px}
+.hero-art{min-height:610px}
+.hero-art:before{width:min(500px,90%);aspect-ratio:4/5;border:1px solid #d5b36b55;background:linear-gradient(145deg,#231b10,#0b0907 50%,#1c150b);box-shadow:0 20px 100px #0009}
+.hero-logo{width:min(500px,90%);border:1px solid #d5b36b45;box-shadow:0 25px 80px #000a;transform:translate(15px,-4px)}
+.scroll-note{font-size:8px;letter-spacing:.32em;color:#b19a6d}
+.section{padding:112px 0}
+.section-head{margin-bottom:54px}
+.section h2{font-size:clamp(38px,4.3vw,57px);letter-spacing:-.035em}
+.section-head p{font-size:13px;line-height:1.9;max-width:490px;margin:0 auto;color:#aaa092}
+.about-grid{gap:90px}
+.about-panel{min-height:420px;background:linear-gradient(135deg,#1c160d,#0b0907 52%,#21180c);box-shadow:inset 0 0 80px #0008}
+.about-panel:after{inset:18px;border-color:#d5b36b3a}
+.about-logo{width:88%;filter:drop-shadow(0 10px 25px #0008)}
+.about-copy h2{font-size:clamp(39px,4vw,54px);letter-spacing:-.04em;line-height:1.02}
+.about-copy p{font-size:13px;line-height:2;color:#b6ac9f}
+.services{background:linear-gradient(180deg,#0c0b09,#11100d 50%,#0b0a08);border-color:#d5b36b20}
+.service-grid{gap:12px}
+.service{min-height:220px;padding:31px 27px;background:linear-gradient(145deg,#17130d,#0d0b08);border-color:#d5b36b38;transition:transform .25s,border-color .25s,background .25s}
+.service:hover{transform:translateY(-5px);border-color:#d5b36b9c;background:linear-gradient(145deg,#21190d,#0e0c09)}
+.service .number{font-size:18px;color:#d8b66e}
+.service h3{font-size:25px;letter-spacing:-.025em}
+.service p{line-height:1.8;color:#aaa092}
+.gallery-grid{gap:12px}
+.gallery-tile{min-height:250px;background:radial-gradient(ellipse at 50% 20%,#47351c,#17120c 48%,#090807);border-color:#d5b36b38;transition:transform .25s,border-color .25s}
+.gallery-tile:hover{transform:translateY(-3px);border-color:#d5b36b9c}
+.gallery-tile:first-child{min-height:360px}
+.gallery-tile:before{inset:14px;border-color:#d5b36b36}
+.gallery-tile span{font-size:9px;letter-spacing:.28em;color:#e1c783}
+.booking-band{padding:100px 20px;background:radial-gradient(ellipse at center,#2b2112,#0c0a08 72%);border-color:#d5b36b3d}
+.booking-band h2{font:italic 400 clamp(40px,5vw,62px)/1.05 Georgia,serif;letter-spacing:-.04em;margin:20px 0}
+.booking-band p{font-size:13px;line-height:1.9}
+.contact-grid{gap:18px}
+.contact-card{padding:34px;background:linear-gradient(145deg,#17130d,#0b0a08);border-color:#d5b36b3d}
+.contact-card h3{font-size:29px}
+.detail{padding:16px 0;border-color:#ffffff12}
+.detail b{font-size:9px;letter-spacing:.25em;color:#d8b66e}
+.detail span,.detail a{font-size:13px;color:#e2d8c9}
+.footer{border-color:#d5b36b27;padding:30px 0;background:#070605}
+.footer-inner{letter-spacing:.08em}
+@media(max-width:800px){
+ .topbar{height:74px}.brand-logo{width:165px;height:54px}
+ .nav{top:73px;background:#0a0907;border-color:#d5b36b30}
+ .hero{min-height:auto}.hero-copy{padding:75px 0 10px}.hero h1{font-size:clamp(54px,14vw,78px)}
+ .hero-art{min-height:340px;padding:35px 0 65px}.hero-art:before{width:78%;aspect-ratio:4/3}.hero-logo{width:min(430px,95%);transform:none}
+ .section{padding:76px 0}.about-grid{gap:38px}.about-panel{min-height:280px}
+ .gallery-tile,.gallery-tile:first-child{min-height:190px}.booking-band{padding:75px 20px}
+}
+
+
+/* Logo placement fix: keep the real logo compact and remove the empty decorative frames */
+.brand-logo{width:150px;height:54px;object-fit:contain;object-position:left center;border:0;filter:none;background:transparent}
+.hero-art:before{display:none}
+.hero-logo{width:min(340px,72%);max-height:360px;object-fit:contain;border:0;box-shadow:none;transform:none}
+.about-panel{min-height:0;padding:24px;border:0;background:transparent;box-shadow:none}
+.about-panel:after{display:none}
+.about-logo{width:min(300px,75%);max-height:300px;object-fit:contain;filter:none}
+@media(max-width:800px){.brand-logo{width:132px;height:48px}.hero-art{min-height:240px;padding:10px 0 35px}.hero-logo{width:min(280px,75%);max-height:260px}.about-panel{padding:10px}.about-logo{width:min(250px,75%);max-height:240px}}
+</style>
+<style>
+
+/* Integrated image-led composition: photos blend into the page instead of sitting in boxes. */
+.hero-art{isolation:isolate;min-height:640px;align-items:flex-end;overflow:visible;padding:0 0 0 0}
+.hero-art:before{display:none!important}
+.hero-glow{position:absolute;inset:8% -10% 0 0;z-index:-1;background:radial-gradient(ellipse at 52% 55%,#c49a4b22,transparent 58%)}
+.hero-barber{position:relative;z-index:1;display:block;width:min(660px,112%);max-height:650px;object-fit:contain;object-position:bottom center;align-self:end;filter:drop-shadow(0 10px 35px #000b);mask-image:linear-gradient(to bottom,black 0%,black 83%,transparent 100%)}
+.hero-brand-stamp{position:absolute;z-index:2;right:0;top:13%;width:145px;opacity:.9;transform:rotate(5deg);mix-blend-mode:screen;filter:drop-shadow(0 8px 20px #000)}
+.hero-brand-stamp img{display:block;width:100%;height:auto;mix-blend-mode:screen}
+.brand-panel{min-height:420px;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden;background:radial-gradient(ellipse at center,#292014 0%,#11100d 45%,#080706 78%);border:0;position:relative}
+.brand-panel:after{inset:18px;border:1px solid #d5b36b28}
+.brand-panel .about-logo{width:min(78%,390px);mix-blend-mode:screen;filter:drop-shadow(0 0 28px #d5b36b13)}
+.panel-caption{position:relative;z-index:1;margin-top:8px;color:#bca36f;font-size:9px;letter-spacing:.32em}
+.gallery-tile{background-color:#100e0b;background-size:cover;background-position:center;isolation:isolate;min-height:260px;border:1px solid #d5b36b20}
+.gallery-tile:before{z-index:-1;inset:0;border:0;background:linear-gradient(0deg,#080706ee 0%,#08070636 55%,#08070608 100%)}
+.gallery-barber{background-image:linear-gradient(0deg,#080706cc 0%,#08070608 65%),url('haircut-textured.jpg');background-size:cover;background-repeat:no-repeat;background-position:center 42%;background-color:#090807}
+.gallery-logo{background-image:linear-gradient(0deg,#080706cc 0%,#08070608 65%),url('haircut-fade.jpg');background-size:cover;background-repeat:no-repeat;background-position:center 45%;background-color:#0b0907}
+.gallery-detail{background-image:linear-gradient(0deg,#080706cc 0%,#08070608 65%),url('haircut-blonde.jpg');background-size:cover;background-position:center 40%}
+.gallery-shop{background-image:linear-gradient(0deg,#080706cc 0%,#08070608 65%),url('haircut-crop.jpg');background-size:cover;background-position:center 42%}
+.gallery-craft{background-image:linear-gradient(0deg,#080706cc 0%,#08070608 65%),url('new-barber.jpg');background-size:cover;background-position:center 30%}
+@media(max-width:800px){.hero{overflow:hidden}.hero-art{min-height:380px;padding:0;align-items:flex-end;margin-top:-5px}.hero-barber{width:min(470px,110%);max-height:430px;margin:0 auto;mask-image:linear-gradient(to bottom,black 0%,black 86%,transparent 100%)}.hero-brand-stamp{width:92px;right:2%;top:8%}.brand-panel{min-height:290px}.brand-panel .about-logo{width:min(72%,280px)}.gallery-grid{grid-template-columns:1fr 1fr}.gallery-tile:first-child{grid-row:auto;min-height:250px}}
+@media(prefers-reduced-motion:reduce){.hero-barber{mask-image:none}}
+
+
+/* Seamless hero photo integration: the portrait fades into the page instead of reading as a pasted rectangle. */
+.hero{background:#080706;isolation:isolate}
+.hero:before{z-index:0;background:radial-gradient(ellipse at 76% 52%,#c49a4b16 0%,transparent 48%),linear-gradient(90deg,#080706 0%,#080706 32%,#080706b8 55%,#08070638 78%,#080706 100%)}
+.hero-art{background:transparent;min-height:640px;overflow:hidden;align-items:flex-end;justify-content:center;position:relative;isolation:isolate}
+.hero-glow{position:absolute;inset:5% -5% 0;z-index:-1;background:radial-gradient(ellipse at 50% 48%,#b68a3d20 0%,#b68a3d08 38%,transparent 68%)}
+.hero-barber{width:min(700px,125%);height:100%;max-height:690px;object-fit:contain;object-position:center bottom;filter:drop-shadow(0 12px 35px #0009);mask-image:radial-gradient(ellipse 78% 78% at 50% 47%,#000 52%,#000c 70%,transparent 100%),linear-gradient(to bottom,#000 0%,#000 80%,transparent 100%);mask-composite:intersect; -webkit-mask-image:radial-gradient(ellipse 78% 78% at 50% 47%,#000 52%,#000c 70%,transparent 100%),linear-gradient(to bottom,#000 0%,#000 80%,transparent 100%);-webkit-mask-composite:source-in}
+.hero-brand-stamp{opacity:.45;width:110px;right:4%;top:12%;mix-blend-mode:screen}
+@media(max-width:800px){.hero:before{background:linear-gradient(180deg,#080706 0%,#08070600 32%,#08070620 68%,#080706 100%)}.hero-art{min-height:400px;margin-top:-18px}.hero-barber{width:min(520px,120%);max-height:460px;mask-image:linear-gradient(to bottom,#000 0%,#000 82%,transparent 100%);-webkit-mask-image:linear-gradient(to bottom,#000 0%,#000 82%,transparent 100%)}.hero-brand-stamp{width:82px;right:5%;top:7%}}
+</style>
+<style>
+/* Seamless hero portrait: exact site-black background, no visible image rectangle */
+.hero{background-color:#080706!important}
+.hero-art{background:#080706!important;overflow:hidden!important;align-items:flex-end!important}
+.hero-glow{background:radial-gradient(ellipse at 50% 55%,rgba(197,153,75,.13),transparent 62%)!important}
+.hero-barber{width:min(700px,120%)!important;max-height:690px!important;object-fit:contain!important;object-position:center bottom!important;filter:drop-shadow(0 8px 26px rgba(0,0,0,.25))!important;mask-image:none!important}
+@media(max-width:800px){.hero-art{background:#080706!important;min-height:380px!important}.hero-barber{width:min(470px,110%)!important;max-height:430px!important}}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap" style="display:flex;align-items:center;justify-content:space-between;gap:16px">
+    <a class="brand" href="#home" aria-label="Diamond Barber home"><img class="brand-logo" src="diamond-barber-logo.jpg" alt="Diamond Barber logo"></a>
+    <nav class="nav" id="nav">
+      <a href="#about" data-i18n="navAbout">Over ons</a><a href="#services" data-i18n="navServices">Diensten</a><a href="#gallery" data-i18n="navGallery">Galerij</a><a href="#contact" data-i18n="navContact">Contact</a>
+      <select class="language" id="language" aria-label="Language"><option value="nl">NL</option><option value="en">EN</option><option value="fr">FR</option><option value="es">ES</option></select>
+    </nav>
+    <a class="btn" href="https://treatsme.com/at/diamond-barbershop/booking" target="_blank" rel="noopener" data-i18n="book">Boek afspraak</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+  </div>
+</header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-copy">
+  <span class="eyebrow" data-i18n="eyebrow">Barbershop · Waarschoot</span>
+  <h1 data-i18n-html="heroTitle">DIAMOND BARBER</h1>
+  <p data-i18n="heroText">Een goede snit is meer dan een detail. Ontdek vakmanschap, persoonlijke service en een stijl die bij jou past.</p>
+  <div class="hero-actions"><a class="btn" href="https://treatsme.com/at/diamond-barbershop/booking" target="_blank" rel="noopener" data-i18n="bookNow">Boek je afspraak ↗</a><a class="btn outline" href="#about" data-i18n="discover">Ontdek Diamond</a></div>
+  <div class="scroll-note">↓ &nbsp; <span data-i18n="scroll">Ontdek meer</span></div>
+</div><div class="hero-art" aria-label="Diamond Barber barber"><div class="hero-glow"></div><img class="hero-barber" src="new-barber.png" alt="Diamond Barber barber welcoming customers"><div class="hero-brand-stamp"><img src="diamond-barber-logo.jpg" alt="Diamond Barber logo"></div></div></section>
+<section class="section" id="about"><div class="wrap about-grid"><div class="about-panel brand-panel"><img class="about-logo" src="diamond-barber-logo.jpg" alt="Diamond Barber gold logo"><span class="panel-caption">DIAMOND BARBER · SINCE DAY ONE</span></div><div class="about-copy"><span class="eyebrow" data-i18n="aboutEyebrow">De Diamond ervaring</span><h2 data-i18n="aboutTitle">Meer dan alleen een knipbeurt.</h2><p data-i18n="aboutText">Bij Diamond Barber draait alles om precisie, aandacht en een verzorgde uitstraling. Of je nu kiest voor een frisse coupe of je baard laat bijwerken: we helpen je met een look die bij je past.</p><p data-i18n="aboutText2">Boek eenvoudig online en kies het moment dat jou het beste uitkomt.</p><a class="btn outline" href="https://treatsme.com/at/diamond-barbershop/booking" target="_blank" rel="noopener" data-i18n="reserve">Reserveer je stoel ↗</a></div></div></section>
+<section class="section services" id="services"><div class="wrap"><div class="section-head"><span class="eyebrow" data-i18n="servicesEyebrow">Op maat gemaakt</span><h2 data-i18n="servicesTitle">De details maken het verschil.</h2><p data-i18n="servicesText">Kies je behandeling en bekijk de actuele beschikbaarheid via ons online boekingssysteem.</p></div><div class="service-grid"><article class="service"><span class="number">01</span><h3 data-i18n="service1">Herenknipbeurt</h3><p data-i18n="service1Text">Een frisse, verzorgde coupe afgestemd op jouw stijl.</p></article><article class="service"><span class="number">02</span><h3 data-i18n="service2">Fade & styling</h3><p data-i18n="service2Text">Strakke overgangen en een nauwkeurige afwerking.</p></article><article class="service"><span class="number">03</span><h3 data-i18n="service3">Baardverzorging</h3><p data-i18n="service3Text">Vorm, contouren en verzorging tot in detail.</p></article></div><div style="text-align:center;margin-top:30px"><a class="btn" href="https://treatsme.com/at/diamond-barbershop/booking" target="_blank" rel="noopener" data-i18n="viewBook">Bekijk behandelingen & boek ↗</a></div></div></section>
+<section class="section" id="gallery"><div class="wrap"><div class="section-head"><span class="eyebrow" data-i18n="galleryEyebrow">Het werk spreekt</span><h2 data-i18n="galleryTitle">De Diamond look.</h2><p data-i18n="galleryText">Bekijk een selectie van onze afgewerkte coupes en fades.</p></div><div class="gallery-grid"><div class="gallery-tile gallery-barber"></div><div class="gallery-tile gallery-logo"></div><div class="gallery-tile gallery-detail"></div><div class="gallery-tile gallery-shop"></div><div class="gallery-tile gallery-craft"></div></div></div></section>
+<section class="booking-band"><span class="eyebrow" data-i18n="bookingEyebrow">Jouw moment. Jouw stijl.</span><h2 data-i18n="bookingTitle">Klaar voor een frisse look?</h2><p data-i18n="bookingText">Reserveer online via TreatsMe en bekijk de beschikbare momenten.</p><a class="btn" href="https://treatsme.com/at/diamond-barbershop/booking" target="_blank" rel="noopener" data-i18n="bookAppointment">Maak een afspraak ↗</a></section>
+<section class="section" id="contact"><div class="wrap"><div class="section-head"><span class="eyebrow" data-i18n="contactEyebrow">Kom langs</span><h2 data-i18n="contactTitle">Vind Diamond Barber.</h2><p data-i18n="contactText">Contacteer ons of boek meteen online.</p></div><div class="contact-grid"><div class="contact-card"><h3 data-i18n="location">Locatie & contact</h3><div class="detail"><b data-i18n="address">Adres</b><span>Stationsstraat 105, 9950 Lievegem, België</span></div><div class="detail"><b data-i18n="phone">Telefoon</b><a href="tel:+32490402088">+32 490 40 20 88</a></div><div class="detail"><b>Email</b><a href="mailto:barberdiamond974@gmail.com">barberdiamond974@gmail.com</a></div><a class="btn outline" href="https://www.google.com/maps/search/?api=1&query=Stationsstraat+105%2C+9950+Lievegem%2C+Belgium" target="_blank" rel="noopener" data-i18n="directions">Route bekijken ↗</a></div><div class="contact-card"><h3 data-i18n="onlineBooking">Online boeken</h3><p class="muted" data-i18n="onlineText">Bekijk de actuele behandelingen en beschikbare afspraakmomenten op onze TreatsMe-pagina.</p><div class="detail"><b data-i18n="bookingPlatform">Boekingsplatform</b><a href="https://treatsme.com/at/diamond-barbershop/booking" target="_blank" rel="noopener">TreatsMe · Diamond Barber ↗</a></div><a class="btn" href="https://treatsme.com/at/diamond-barbershop/booking" target="_blank" rel="noopener" data-i18n="bookOnline">Boek online ↗</a></div></div></div></section>
+</main>
+<footer class="footer"><div class="wrap footer-inner"><span>© <span id="year"></span> Diamond Barber · Waarschoot</span><span data-i18n="footer">Precisie. Stijl. Vakmanschap.</span><a href="https://treatsme.com/at/diamond-barbershop/booking" target="_blank" rel="noopener" data-i18n="book">Boek afspraak</a></div></footer>
+<script>
+const translations={
+nl:{navAbout:"Over ons",navServices:"Diensten",navGallery:"Galerij",navContact:"Contact",book:"Boek afspraak",eyebrow:"Barbershop · Waarschoot",heroTitle:'DIAMOND BARBER',heroText:"Een goede snit is meer dan een detail. Ontdek vakmanschap, persoonlijke service en een stijl die bij jou past.",bookNow:"Boek je afspraak ↗",discover:"Ontdek Diamond",scroll:"Ontdek meer",aboutEyebrow:"De Diamond ervaring",aboutTitle:"Meer dan alleen een knipbeurt.",aboutText:"Bij Diamond Barber draait alles om precisie, aandacht en een verzorgde uitstraling. Of je nu kiest voor een frisse coupe of je baard laat bijwerken: we helpen je met een look die bij je past.",aboutText2:"Boek eenvoudig online en kies het moment dat jou het beste uitkomt.",reserve:"Reserveer je stoel ↗",servicesEyebrow:"Op maat gemaakt",servicesTitle:"De details maken het verschil.",servicesText:"Kies je behandeling en bekijk de actuele beschikbaarheid via ons online boekingssysteem.",service1:"Herenknipbeurt",service1Text:"Een frisse, verzorgde coupe afgestemd op jouw stijl.",service2:"Fade & styling",service2Text:"Strakke overgangen en een nauwkeurige afwerking.",service3:"Baardverzorging",service3Text:"Vorm, contouren en verzorging tot in detail.",viewBook:"Bekijk behandelingen & boek ↗",galleryEyebrow:"Het werk spreekt",galleryTitle:"De Diamond look.",galleryText:"Bekijk een selectie van onze afgewerkte coupes en fades.",gallery1:"Precision cuts",gallery2:"Clean fades",gallery3:"Fresh style",gallery4:"The shop",gallery5:"Attention to detail",bookingEyebrow:"Jouw moment. Jouw stijl.",bookingTitle:"Klaar voor een frisse look?",bookingText:"Reserveer online via TreatsMe en bekijk de beschikbare momenten.",bookAppointment:"Maak een afspraak ↗",contactEyebrow:"Kom langs",contactTitle:"Vind Diamond Barber.",contactText:"Contacteer ons of boek meteen online.",location:"Locatie & contact",address:"Adres",phone:"Telefoon",directions:"Route bekijken ↗",onlineBooking:"Online boeken",onlineText:"Bekijk de actuele behandelingen en beschikbare afspraakmomenten op onze TreatsMe-pagina.",bookingPlatform:"Boekingsplatform",bookOnline:"Boek online ↗",footer:"Precisie. Stijl. Vakmanschap."},
+en:{navAbout:"About",navServices:"Services",navGallery:"Gallery",navContact:"Contact",book:"Book now",eyebrow:"Barbershop · Waarschoot",heroTitle:'DIAMOND BARBER',heroText:"A great cut is more than a detail. Discover craftsmanship, personal service and a style that feels like you.",bookNow:"Book your appointment ↗",discover:"Discover Diamond",scroll:"Discover more",aboutEyebrow:"The Diamond experience",aboutTitle:"More than just a haircut.",aboutText:"At Diamond Barber, it's all about precision, care and a polished look. From a fresh haircut to a beard tidy-up, we'll help you find a style that suits you.",aboutText2:"Book online and choose a time that works for you.",reserve:"Reserve your chair ↗",servicesEyebrow:"Made for you",servicesTitle:"The details make the difference.",servicesText:"Choose your treatment and check current availability through our online booking system.",service1:"Men's haircut",service1Text:"A fresh, well-groomed cut tailored to your style.",service2:"Fade & styling",service2Text:"Clean transitions and a precise finish.",service3:"Beard grooming",service3Text:"Shape, lines and care down to the details.",viewBook:"View services & book ↗",galleryEyebrow:"Let the work speak",galleryTitle:"The Diamond look.",galleryText:"Real cuts, clean fades and the craft behind every look.",gallery1:"Precision cuts",gallery2:"Clean fades",gallery3:"Fresh style",gallery4:"The shop",gallery5:"Attention to detail",bookingEyebrow:"Your time. Your style.",bookingTitle:"Ready for a fresh look?",bookingText:"Book online through TreatsMe and see available appointment times.",bookAppointment:"Make an appointment ↗",contactEyebrow:"Come by",contactTitle:"Find Diamond Barber.",contactText:"Get in touch or book online now.",location:"Location & contact",address:"Address",phone:"Phone",directions:"Get directions ↗",onlineBooking:"Online booking",onlineText:"See current services and available appointment times on our TreatsMe page.",bookingPlatform:"Booking platform",bookOnline:"Book online ↗",footer:"Precision. Style. Craftsmanship."},
+fr:{navAbout:"À propos",navServices:"Services",navGallery:"Galerie",navContact:"Contact",book:"Réserver",eyebrow:"Barbershop · Waarschoot",heroTitle:'DIAMOND BARBER',heroText:"Une bonne coupe fait toute la différence. Découvrez un savoir-faire précis, un service personnalisé et un style qui vous ressemble.",bookNow:"Réserver un rendez-vous ↗",discover:"Découvrir Diamond",scroll:"En découvrir plus",aboutEyebrow:"L’expérience Diamond",aboutTitle:"Bien plus qu’une coupe.",aboutText:"Chez Diamond Barber, tout repose sur la précision, l’attention et une allure soignée. Coupe fraîche ou entretien de barbe : nous vous aidons à trouver votre style.",aboutText2:"Réservez en ligne et choisissez le moment qui vous convient.",reserve:"Réserver votre fauteuil ↗",servicesEyebrow:"Sur mesure",servicesTitle:"Les détails font la différence.",servicesText:"Choisissez votre prestation et consultez les disponibilités via notre système de réservation.",service1:"Coupe homme",service1Text:"Une coupe soignée, adaptée à votre style.",service2:"Dégradé & coiffage",service2Text:"Des transitions nettes et une finition précise.",service3:"Entretien de barbe",service3Text:"Forme, contours et soin dans les moindres détails.",viewBook:"Voir les services et réserver ↗",galleryEyebrow:"Le travail parle",galleryTitle:"Le style Diamond.",galleryText:"Découvrez nos coupes, dégradés et le savoir-faire derrière chaque style.",gallery1:"Coupes précises",gallery2:"Dégradés nets",gallery3:"Style frais",gallery4:"Le salon",gallery5:"Le souci du détail",bookingEyebrow:"Votre moment. Votre style.",bookingTitle:"Prêt pour un nouveau look ?",bookingText:"Réservez en ligne via TreatsMe et consultez les créneaux disponibles.",bookAppointment:"Prendre rendez-vous ↗",contactEyebrow:"Venez nous voir",contactTitle:"Trouver Diamond Barber.",contactText:"Contactez-nous ou réservez directement en ligne.",location:"Adresse et contact",address:"Adresse",phone:"Téléphone",directions:"Itinéraire ↗",onlineBooking:"Réservation en ligne",onlineText:"Consultez les prestations et créneaux disponibles sur notre page TreatsMe.",bookingPlatform:"Plateforme de réservation",bookOnline:"Réserver en ligne ↗",footer:"Précision. Style. Savoir-faire."},
+es:{navAbout:"Nosotros",navServices:"Servicios",navGallery:"Galería",navContact:"Contacto",book:"Reservar",eyebrow:"Barbería · Waarschoot",heroTitle:'DIAMOND BARBER',heroText:"Un buen corte marca la diferencia. Descubre técnica, atención personalizada y un estilo que encaja contigo.",bookNow:"Reserva tu cita ↗",discover:"Descubre Diamond",scroll:"Descubre más",aboutEyebrow:"La experiencia Diamond",aboutTitle:"Mucho más que un corte.",aboutText:"En Diamond Barber todo gira en torno a la precisión, el cuidado y una imagen impecable. Desde un corte fresco hasta el arreglo de barba, te ayudamos a encontrar tu estilo.",aboutText2:"Reserva online y elige el momento que mejor te venga.",reserve:"Reserva tu sillón ↗",servicesEyebrow:"A tu medida",servicesTitle:"Los detalles marcan la diferencia.",servicesText:"Elige tu servicio y consulta la disponibilidad en nuestro sistema de reservas online.",service1:"Corte masculino",service1Text:"Un corte fresco y cuidado adaptado a tu estilo.",service2:"Degradado y peinado",service2Text:"Transiciones limpias y un acabado preciso.",service3:"Cuidado de barba",service3Text:"Forma, contornos y cuidado hasta el último detalle.",viewBook:"Ver servicios y reservar ↗",galleryEyebrow:"El trabajo habla",galleryTitle:"El estilo Diamond.",galleryText:"Descubre nuestros cortes, degradados y el trabajo detrás de cada estilo.",gallery1:"Cortes precisos",gallery2:"Degradados limpios",gallery3:"Estilo fresco",gallery4:"La barbería",gallery5:"Atención al detalle",bookingEyebrow:"Tu momento. Tu estilo.",bookingTitle:"¿Listo para renovar tu look?",bookingText:"Reserva online con TreatsMe y consulta los horarios disponibles.",bookAppointment:"Pedir cita ↗",contactEyebrow:"Ven a visitarnos",contactTitle:"Encuentra Diamond Barber.",contactText:"Contacta con nosotros o reserva online.",location:"Ubicación y contacto",address:"Dirección",phone:"Teléfono",directions:"Cómo llegar ↗",onlineBooking:"Reservas online",onlineText:"Consulta los servicios y horarios disponibles en nuestra página de TreatsMe.",bookingPlatform:"Plataforma de reservas",bookOnline:"Reservar online ↗",footer:"Precisión. Estilo. Maestría."}
+};
+function setLanguage(lang){const t=translations[lang]||translations.nl;document.documentElement.lang=lang;document.querySelectorAll("[data-i18n]").forEach(el=>{const k=el.dataset.i18n;if(t[k])el.textContent=t[k]});document.querySelectorAll("[data-i18n-html]").forEach(el=>{const k=el.dataset.i18nHtml;if(t[k])el.innerHTML=t[k]});document.title=({nl:"Diamond Barber | Waarschoot",en:"Diamond Barber | Waarschoot",fr:"Diamond Barber | Waarschoot",es:"Diamond Barber | Waarschoot"})[lang];}
+document.getElementById("language").addEventListener("change",e=>setLanguage(e.target.value));
+const toggle=document.getElementById("menuToggle"),nav=document.getElementById("nav");toggle.addEventListener("click",()=>{const open=nav.classList.toggle("open");toggle.setAttribute("aria-expanded",String(open));toggle.textContent=open?"✕":"☰"});nav.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>{nav.classList.remove("open");toggle.setAttribute("aria-expanded","false");toggle.textContent="☰"}));document.getElementById("year").textContent=new Date().getFullYear();
+// Reveal content smoothly as each section enters the viewport.
+const revealTargets = document.querySelectorAll('.section-head, .about-panel, .about-copy, .service-grid, .gallery-grid, .booking-band, .contact-grid');
+revealTargets.forEach(el => {
+  el.classList.add('reveal');
+  if (el.matches('.service-grid, .gallery-grid, .contact-grid')) el.classList.add('reveal-stagger');
+});
+if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  const revealObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.14, rootMargin: '0px 0px -35px 0px' });
+  revealTargets.forEach(el => revealObserver.observe(el));
+} else {
+  revealTargets.forEach(el => el.classList.add('is-visible'));
+}
+
+</script>
+</body>
+</html>
+<style>
+.brand-logo{object-fit:contain!important;object-position:left center!important;width:170px!important;height:64px!important;border:0!important;box-shadow:none!important}
+.hero-art:before{border:0!important;box-shadow:none!important;background:radial-gradient(ellipse,#17130d,transparent 70%)!important}
+.hero-logo{width:min(540px,100%)!important;border:0!important;box-shadow:none!important;transform:none!important;object-fit:contain!important}
+.about-panel.barber-panel{min-height:420px;overflow:hidden;display:flex;align-items:flex-end;justify-content:center;background:radial-gradient(ellipse at 50% 35%,#292015,#080706 72%);border:1px solid #d5b36b35}
+.about-panel.barber-panel:after{display:none}
+.barber-photo{display:block;position:relative;z-index:1;width:min(100%,440px);height:auto;max-height:510px;object-fit:contain;object-position:bottom;filter:drop-shadow(0 8px 30px #0009)}
+@media(max-width:700px){.brand-logo{width:135px!important;height:52px!important}.about-panel.barber-panel{min-height:300px}.barber-photo{max-height:390px}}
+</style>
